@@ -8,4 +8,4 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: d0015520-a736-42c9-ac43-fae6e8b40a5f
+      clusterid: local-cluster
