@@ -1,0 +1,11 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: httpd
+  name: cluster1only
+  namespace: shen-app
+spec:
+  clusterSelector:
+    matchLabels:
+      clusterid: d0015520-a736-42c9-ac43-fae6e8b40a5f
